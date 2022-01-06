@@ -6,7 +6,7 @@ body{
 .orange-color {
     color: orange;
 }
-section {
+.flaxible-container {
     display: flex;
     margin-bottom: 123px;
 }
@@ -31,4 +31,26 @@ section {
     padding: 10px 20px;
     color:white;
     font-weight: 700;
+}
+.experience-item {
+    box-shadow: 6px 10px 10px 5px #a49d9d;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
+    padding-left: 15px;
+    border-radius: 15px;
+    
+}
+#web-baby{
+    border-left: 7px solid;
+    border-image: linear-gradient (blue, cyan);
+    border-image-slice: 1;
+
+}
+#web-pro{
+    border-left: 7px solid pink;
+}
+footer p{
+    text-align: center;
 }
